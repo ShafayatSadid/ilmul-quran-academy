@@ -1,14 +1,16 @@
-import { Noto_Sans_Bengali } from "next/font/google";
+// import { Noto_Sans_Bengali } from 'next/font/google';
 import "./globals.css";
 import { Providers } from "./providers";
 import NavBar from "@/components/shared/NavBar";
+import Footer from "@/components/shared/Footer";
 
-const notoSansBengali = Noto_Sans_Bengali({
-  subsets: ["bengali"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-bengali",
-  display: "swap",
-});
+// const notoSansBengali = Noto_Sans_Bengali({
+//   subsets: ["bengali"],
+//   weight: ["400", "500", "600", "700"],
+//   display: "swap",
+// });
+
+
 
 export const metadata = {
   title: "ইলমুল কুরআন একাডেমি | আল-আজহার ভিত্তিক কুরআন শিক্ষা",
@@ -33,12 +35,13 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="bn"
-      className={`${notoSansBengali.variable} h-full antialiased`}
+      className={` h-full antialiased`}
     >
       <body className="min-h-full flex flex-col" style={{ fontFamily: "var(--font-bengali)" }}>
         <Providers>
           <NavBar />
           {children}
+          <Footer/>
         </Providers>
       </body>
     </html>

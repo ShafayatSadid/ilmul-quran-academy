@@ -29,7 +29,7 @@ const NavBar = () => {
    
 
     return (
-        <nav className=" w-full mx-auto fixed px-5 lg:px-8 py-4 flex justify-between items-center z-50 bg-cream/80 dark:bg-secondary/90 backdrop-blur-md shadow-sm transition-colors duration-300">
+        <nav className=" w-full mx-auto fixed px-5 lg:px-8 py-4 flex justify-between items-center z-50 bg-cream/80 backdrop-blur-md shadow-sm transition-colors duration-300">
 
             {/* Mobile Menu Icon */}
             <div className="md:hidden">
@@ -45,7 +45,7 @@ const NavBar = () => {
             <ul
                 ref={sideMenuRef}
                 style={{ transform: "translateX(-100%)" }}
-                className="flex md:hidden flex-col gap-6 py-20 px-8 fixed left-0 top-0 bottom-0 w-64 z-50 h-screen bg-cream dark:bg-secondary shadow-2xl transition-transform duration-300 text-dark dark:text-cream"
+                className="flex md:hidden flex-col gap-6 py-20 px-8 fixed left-0 top-0 bottom-0 w-64 z-50 h-screen bg-cream shadow-2xl transition-transform duration-300 text-dark dark:text-cream"
             >
                 <div className="absolute left-6 top-6">
                     <IoClose
@@ -103,7 +103,7 @@ const NavBar = () => {
             </div>
 
             {/* Desktop Menu (মাঝখানে) */}
-            <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-8 py-2.5 bg-cream/70 dark:bg-secondary/70 backdrop-blur-sm shadow-md border border-primary/10 dark:border-cream/10">
+            <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-8 py-2.5 bg-cream/70 backdrop-blur-sm shadow-md border border-primary/10 dark:border-cream/10">
                 <li>
                     <Link
                         href="/"

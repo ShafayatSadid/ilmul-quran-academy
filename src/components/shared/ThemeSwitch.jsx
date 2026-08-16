@@ -1,23 +1,8 @@
-// "use client";
-
-// import { useTheme } from "next-themes";
-
-// export function ThemeSwitch() {
-//   const { theme, setTheme } = useTheme();
-
-//   return (
-//     <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
-//       Toggle {theme === "dark" ? "Light" : "Dark"} Mode
-//     </button>
-//   );
-// }
-
-
 "use client";
 
 import { useTheme } from "next-themes";
-import { FaMoon } from "react-icons/fa";
-import { IoSunnyOutline } from "react-icons/io5";
+
+import { IoMoonOutline, IoSunnyOutline } from "react-icons/io5";
 
 export function ThemeSwitch() {
   const { theme, setTheme } = useTheme();
@@ -35,7 +20,7 @@ export function ThemeSwitch() {
       {theme === "dark" ? (
         <IoSunnyOutline className="text-yellow-400 size-5" />
       ) : (
-        <FaMoon className="text-gray-700 dark:text-gray-300 size-5" />
+        <IoMoonOutline className="text-gray-700 dark:text-gray-300 size-5" />
       )}
     </button>
   );
