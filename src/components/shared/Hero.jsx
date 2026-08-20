@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@heroui/react";
+import { FreeClass } from "./FreeClass";
 
 export default function Hero() {
     return (
@@ -56,13 +57,7 @@ export default function Hero() {
 
                         {/* CTA বাটন + সেকেন্ডারি লিংক */}
                         <div className="flex flex-col sm:flex-row items-center gap-4 pt-2  my-7">
-                            <Button
-                                as={Link}
-                                href="#trial"
-                                className="bg-accent hover:bg-accent-light text-white font-heading font-semibold px-8 py-6 text-base rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-                            >
-                                ফ্রি ট্রায়াল ক্লাস নিন
-                            </Button>
+                            <FreeClass/>
                             <Link
                                 href="/about"
                                 className="text-primary dark:text-primary-light font-medium hover:underline transition flex items-center gap-1"

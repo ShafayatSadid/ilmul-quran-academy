@@ -7,6 +7,8 @@ import { IoClose } from "react-icons/io5";
 import { Button } from "@heroui/react";
 
 import { ThemeSwitch } from "./ThemeSwitch";
+import { FreeClass } from "./FreeClass";
+
 
 const NavBar = () => {
     const sideMenuRef = useRef(null);
@@ -26,7 +28,7 @@ const NavBar = () => {
             setBurger(true)
         }
     };
-   
+
 
     return (
         <nav className=" w-full mx-auto fixed px-5 lg:px-8 py-4 flex justify-between items-center z-50 bg-cream/80 backdrop-blur-md shadow-sm transition-colors duration-300">
@@ -82,14 +84,7 @@ const NavBar = () => {
                 </li>
                 {/* মোবাইলে CTA বাটন মেনুর নিচে */}
                 <li className="mt-6">
-                    <Button
-                        as={Link}
-                        href="#trial"
-                        onClick={closeMenu}
-                        className="bg-accent hover:bg-accent-light text-white font-heading font-semibold px-6 py-3 rounded-full shadow-md w-full text-center"
-                    >
-                        ফ্রি ক্লাস নিন
-                    </Button>
+                    <div onClick={closeMenu}><FreeClass/> </div>                  
                 </li>
             </ul>
 
@@ -134,13 +129,8 @@ const NavBar = () => {
             <div className="flex items-center gap-4">
                 <ThemeSwitch />
 
-                <Button
-                    as={Link}
-                    href="#trial"
-                    className="hidden sm:flex bg-accent hover:bg-accent-light text-white font-heading font-semibold px-5 py-2.5 rounded-full shadow-md transition-all duration-200 hover:scale-105"
-                >
-                    ফ্রি ক্লাস নিন
-                </Button>
+                {/*  */}
+                <div className="hidden md:block"><FreeClass /></div>
             </div>
         </nav>
     );
