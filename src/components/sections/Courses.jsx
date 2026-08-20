@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { FaQuran, FaStar, FaLanguage, FaCheckCircle } from "react-icons/fa";
 import { MdOutlineMenuBook, MdOutlinePhonelinkSetup } from "react-icons/md";
+import { FreeClass } from "../shared/FreeClass";
 
 export default function Courses() {
   const courses = [
@@ -148,21 +149,8 @@ export default function Courses() {
                   </div>
 
                   {/* ফুটার: আরও জানুন লিংক */}
-                  <div className="pt-3 border-t border-primary/5 dark:border-cream/5 mt-auto">
-                    <Link
-                      href="#"
-                      className="text-sm font-medium text-primary dark:text-primary-light hover:text-accent dark:hover:text-accent-light transition-colors duration-200 flex items-center gap-1 group/link"
-                    >
-                      বিস্তারিত জানুন
-                      <svg
-                        className="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </Link>
+                  <div className="pt-3 border-t border-primary/5 dark:border-cream/5 mt-auto flex justify-center">
+                    <FreeClass/>
                   </div>
                 </div>
 

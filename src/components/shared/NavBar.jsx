@@ -76,7 +76,7 @@ const NavBar = () => {
                 <li>
                     <Link
                         onClick={closeMenu}
-                        href="#courses"
+                        href="/courses"
                         className="font-heading text-lg font-bold hover:text-primary transition"
                     >
                         কোর্সসমূহ
@@ -117,7 +117,7 @@ const NavBar = () => {
                 </li>
                 <li>
                     <Link
-                        href="#courses"
+                        href="/courses"
                         className="font-body text-sm font-semibold text-dark dark:text-cream hover:text-primary transition"
                     >
                         কোর্সসমূহ
