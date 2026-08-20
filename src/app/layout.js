@@ -3,6 +3,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import NavBar from "@/components/shared/NavBar";
 import Footer from "@/components/shared/Footer";
+import { Toaster } from "react-hot-toast";
 
 // const notoSansBengali = Noto_Sans_Bengali({
 //   subsets: ["bengali"],
@@ -39,9 +40,13 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col" style={{ fontFamily: "var(--font-bengali)" }}>
         <Providers>
+          <Toaster
+            position="top-center"
+            reverseOrder={false}
+          />
           <NavBar />
           {children}
-          <Footer/>
+          <Footer />
         </Providers>
       </body>
     </html>
