@@ -18,15 +18,15 @@ export default function AboutIntro() {
               <span className="text-primary dark:text-primary-light">পৌঁছে দিচ্ছি</span> আপনার ঘরে
             </h1>
             <p className="text-base sm:text-lg text-foreground/70 dark:text-cream/70 leading-relaxed">
-              <strong>ইলমুল কুরআন একাডেমি</strong> প্রবাসী বাংলাদেশিদের জন্য আল-আজহার বিশ্ববিদ্যালয়ের 
-              মেধাবী শিক্ষকদের দ্বারা কুরআন, তাফসীর ও আরবি ভাষার অনলাইন শিক্ষা প্রদান করে। 
+              <strong>Muslim Sprouts একাডেমি</strong> প্রবাসী বাংলাদেশিদের জন্য আল-আজহার বিশ্ববিদ্যালয়ের 
+              মেধাবী শিক্ষার্থীদের দ্বারা কুরআন, তাফসীর ও আরবি ভাষার অনলাইন শিক্ষা প্রদান করে। 
               আমাদের লক্ষ্য—ঐতিহ্যবাহী আল-আজহার পদ্ধতিতে বিশ্বমানের ইসলামি শিক্ষা পৌঁছে দেওয়া 
               যেখানে প্রয়োজন, সেখানেই।
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <div className="flex items-center gap-2 text-sm text-foreground/60 dark:text-cream/60">
                 <span className="text-primary dark:text-primary-light text-lg">✓</span>
-                আল-আজহার স্বীকৃত শিক্ষক
+                আল-আজহার মেধাবী শিক্ষার্থী
               </div>
               <div className="flex items-center gap-2 text-sm text-foreground/60 dark:text-cream/60">
                 <span className="text-primary dark:text-primary-light text-lg">✓</span>
@@ -52,7 +52,7 @@ export default function AboutIntro() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 flex justify-between items-center">
                 <span className="bg-black/40 backdrop-blur-sm text-white text-xs px-3 py-1.5 rounded-full">
-                  📍 আল-আজহার বিশ্ববিদ্যালয়, কায়রো
+                   আল-আজহার বিশ্ববিদ্যালয়, কায়রো
                 </span>
               </div>
             </div>

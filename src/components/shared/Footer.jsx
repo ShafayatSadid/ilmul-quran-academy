@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="space-y-4">
             <Link href="/">
               <h2 className="font-heading text-2xl font-extrabold text-secondary dark:text-cream tracking-tight">
-                ইলমুল <span className="text-primary dark:text-primary-light">কুরআন</span>
+                Muslim<span className="text-primary dark:text-primary-light">Sprouts</span>
               </h2>
             </Link>
             <p className="text-sm text-foreground/70 dark:text-cream/70 leading-relaxed max-w-xs">
@@ -93,15 +93,15 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-foreground/70 dark:text-cream/70">
                 <FaEnvelope className="w-4 h-4 mt-0.5 text-primary dark:text-primary-light shrink-0" />
-                <span>info@ilmulquran.com</span>
+                <span>info.muslimsproutsacademy@gmail.com</span>
               </li>
               <li className="flex items-start gap-3 text-sm text-foreground/70 dark:text-cream/70">
                 <FaPhone className="w-4 h-4 mt-0.5 text-primary dark:text-primary-light shrink-0" />
-                <span>+৮৮০ ১২৩৪-৫৬৭৮৯০</span>
+                <span>+8801818914856</span>
               </li>
               <li className="flex items-start gap-3 text-sm text-foreground/70 dark:text-cream/70">
                 <FaMapMarkerAlt className="w-4 h-4 mt-0.5 text-primary dark:text-primary-light shrink-0" />
-                <span>ঢাকা, বাংলাদেশ</span>
+                <span>কায়রো, মিশর</span>
               </li>
             </ul>
           </div>
@@ -136,7 +136,7 @@ export default function Footer() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col sm:flex-row justify-evenly items-center gap-2 text-xs text-foreground/50 dark:text-cream/50">
             <p>
-              &copy; {currentYear} ইলমুল কুরআন একাডেমি। সকল অধিকার সংরক্ষিত।
+              &copy; {currentYear} Muslim Sprouts একাডেমি। সকল অধিকার সংরক্ষিত।
             </p>
             <div className="flex gap-4">
               <Link href="/privacy" className="hover:text-primary dark:hover:text-primary-light transition-colors">

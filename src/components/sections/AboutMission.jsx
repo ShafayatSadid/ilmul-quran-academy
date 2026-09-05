@@ -5,7 +5,7 @@ export default function AboutMission() {
     <section className="py-16 md:py-20 lg:py-24 bg-background/50 dark:bg-background/5">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="text-center max-w-3xl mx-auto mb-6">
           <span className="inline-block px-4 py-1.5 text-sm font-medium rounded-full bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary-light mb-4">
             আমাদের লক্ষ্য
           </span>
@@ -18,10 +18,10 @@ export default function AboutMission() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 max-w-7xl mx-auto">
           
           {/* মিশন */}
-          <div className="group relative bg-card dark:bg-card rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5 border border-primary/5 dark:border-cream/5 p-8 lg:p-10 text-center">
+          <div className="group relative bg-card/50 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5 border border-primary/5 dark:border-cream/5 p-8 lg:p-10 text-center">
             <div className="inline-flex p-4 rounded-full bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary-light mb-4">
               <FaBullseye className="w-8 h-8" />
             </div>
@@ -36,7 +36,7 @@ export default function AboutMission() {
           </div>
 
           {/* ভিশন */}
-          <div className="group relative bg-card dark:bg-card rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5 border border-accent/5 dark:border-accent/5 p-8 lg:p-10 text-center">
+          <div className="group relative bg-card/50 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1.5 border border-accent/5 dark:border-accent/5 p-8 lg:p-10 text-center">
             <div className="inline-flex p-4 rounded-full bg-accent/10 dark:bg-accent/20 text-accent dark:text-accent-light mb-4">
               <FaEye className="w-8 h-8" />
             </div>

@@ -9,7 +9,7 @@ export default function Courses() {
   const courses = [
     {
       id: 1,
-      title: "স্পৃণ্য কুরআন শিক্ষা",
+      title: "সম্পুর্ন কুরআন শিক্ষা",
       icon: FaQuran,
       iconBg: "bg-primary/10 dark:bg-primary/20",
       iconColor: "text-primary dark:text-primary-light",
@@ -19,7 +19,7 @@ export default function Courses() {
       tagColor: "bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary-light",
       description: "৬ বছরের ওপরের বাচ্চা থেকে শুরু করে যেকোনো বয়সের নারী-পুরুষের জন্য",
       features: [
-        "স্পৃণ্য কুরআন সহি-শুদ্ধভাবে হিফযে",
+        "সম্পুর্ন কুরআন সহি-শুদ্ধভাবে হিফযে",
         "মাখরাজ",
         "তাজবীদ",
         "সিফাত",
@@ -31,7 +31,7 @@ export default function Courses() {
     },
     {
       id: 2,
-      title: "সিহি কুরআন শিক্ষা",
+      title: "সহি কুরআন শিক্ষা",
       icon: MdOutlineMenuBook,
       iconBg: "bg-accent/10 dark:bg-accent/20",
       iconColor: "text-accent dark:text-accent-light",

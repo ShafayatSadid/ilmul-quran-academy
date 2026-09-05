@@ -92,7 +92,7 @@ const NavBar = () => {
             <div className="flex-1 md:flex-none text-center md:text-left">
                 <Link href="/">
                     <h1 className="font-heading text-2xl font-extrabold text-secondary dark:text-cream tracking-tight">
-                        ইলমুল <span className="text-primary">কুরআন</span>
+                        Muslim <span className="text-primary">Sprouts</span>
                     </h1>
                 </Link>
             </div>
