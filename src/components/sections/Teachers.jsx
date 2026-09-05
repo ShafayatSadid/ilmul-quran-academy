@@ -7,31 +7,31 @@ export default function Teachers() {
   const teachers = [
     {
       id: 1,
-      name: "মাওলানা আব্দুল্লাহ",
+      name: "আলেমা আফিয়া জান্নাত",
       title: "আল-আজহার বিশ্ববিদ্যালয়, কুরআন বিভাগ",
       specialty: "তাজবীদ ও তিলাওয়াত বিশেষজ্ঞ",
       experience: "৫ বছর",
-      image: "/images/abdulla.jpg", // আপনার ফাইল নাম অনুযায়ী
+      image: "/images/afia.jpg", // 
       rating: 4.9,
       students: 120,
     },
     {
       id: 2,
-      name: "ড. ফাতিমা খান",
-      title: "আল-আজহার বিশ্ববিদ্যালয়, তাফসীর বিভাগ",
-      specialty: "তাফসীর ও আরবি সাহিত্য",
+      name: "মাওলানা জাহাঙ্গীর আলম আল-আজহারী",
+      title: "আল-আজহার বিশ্ববিদ্যালয়, ",
+      specialty: "আরবি ভাষা ও গ্রামার",
       experience: "৭ বছর",
-      image: "/images/fatima.jpg", // আপনার ফাইল নাম অনুযায়ী
+      image: "/images/jahangir.jpg", // আপনার ফাইল নাম অনুযায়ী
       rating: 4.8,
       students: 95,
     },
     {
       id: 3,
-      name: "মাওলানা ইউসুফ",
-      title: "আল-আজহার বিশ্ববিদ্যালয়, আরবি বিভাগ",
+      name: "মাওলানা শাহাদাত হুসাইন আল-আজহারী",
+      title: "আল-আজহার বিশ্ববিদ্যালয়, তাফসীর বিভাগ",
       specialty: "আরবি ভাষা ও গ্রামার",
       experience: "৪ বছর",
-      image: "/images/yousuf.jpg", // আপনার ফাইল নাম অনুযায়ী
+      image: "/images/shahadat.jpg", // আপনার ফাইল নাম অনুযায়ী
       rating: 4.7,
       students: 80,
     },

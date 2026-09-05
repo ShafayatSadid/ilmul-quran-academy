@@ -12,7 +12,7 @@ export default function Footer() {
       {/* মূল ফুটার কন্টেন্ট */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
-          
+
           {/* কলাম ১: ব্র্যান্ডিং */}
           <div className="space-y-4">
             <Link href="/">
@@ -139,12 +139,11 @@ export default function Footer() {
               &copy; {currentYear} Muslim Sprouts একাডেমি। সকল অধিকার সংরক্ষিত।
             </p>
             <div className="flex gap-4">
-              <Link href="/privacy" className="hover:text-primary dark:hover:text-primary-light transition-colors">
-                গোপনীয়তা নীতি
-              </Link>
-              <Link href="/terms" className="hover:text-primary dark:hover:text-primary-light transition-colors">
-                শর্তাবলী
-              </Link>
+
+              <p className="">
+                Design & Development by <Link href="https://github.com/ShafayatSadid" target="_blank" className="hover:text-primary transition">Shafayat Hossain</Link>
+              </p>
+
             </div>
           </div>
         </div>
