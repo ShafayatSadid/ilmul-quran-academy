@@ -32,7 +32,7 @@ export default function Footer() {
                 <FaFacebook className="w-4 h-4" />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/share/19hooRtQZk/"
                 className="p-2 rounded-full bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary-light hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors duration-200"
                 aria-label="YouTube"
               >
@@ -98,6 +98,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 text-sm text-foreground/70 dark:text-cream/70">
                 <FaPhone className="w-4 h-4 mt-0.5 text-primary dark:text-primary-light shrink-0" />
                 <span>+8801818914856</span>
+                <span>+201503508690</span> 
               </li>
               <li className="flex items-start gap-3 text-sm text-foreground/70 dark:text-cream/70">
                 <FaMapMarkerAlt className="w-4 h-4 mt-0.5 text-primary dark:text-primary-light shrink-0" />
@@ -136,7 +137,7 @@ export default function Footer() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col sm:flex-row justify-evenly items-center gap-2 text-xs text-foreground/50 dark:text-cream/50">
             <p>
-              &copy; {currentYear} Muslim Sprouts একাডেমি। সকল অধিকার সংরক্ষিত।
+              &copy; {currentYear} Muslim Sprouts Academy। সকল অধিকার সংরক্ষিত।
             </p>
             <div className="flex gap-4">
 

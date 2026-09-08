@@ -14,17 +14,17 @@ import { Toaster } from "react-hot-toast";
 
 
 export const metadata = {
-  title: "ইলমুল কুরআন একাডেমি | আল-আজহার ভিত্তিক কুরআন শিক্ষা",
+  title: "Muslim Sprouts Academy | আল-আজহার ভিত্তিক কুরআন শিক্ষা",
   description:
     "প্রবাসী বাংলাদেশিদের জন্য আল-আজহার বিশ্ববিদ্যালয়ের মেধাবী শিক্ষার্থীদের দ্বারা কুরআন, তাফসীর ও আরবি ভাষার অনলাইন কোর্স। ফ্রি ট্রায়াল ক্লাস নিন।",
   keywords: ["কুরআন শিক্ষা", "আল-আজহার", "তাজবীদ", "তাফসীর", "আরবি ভাষা", "অনলাইন কোর্স", "প্রবাসী বাংলাদেশি"],
-  authors: [{ name: "ইলমুল কুরআন একাডেমি" }],
+  authors: [{ name: "Muslim Sprouts Academy" }],
   openGraph: {
-    title: "ইলমুল কুরআন একাডেমি",
+    title: "Muslim Sprouts Academy",
     description: "আল-আজহার থেকে সরাসরি কুরআন শিক্ষা",
     type: "website",
     locale: "bn_BD",
-    siteName: "ইলমুল কুরআন একাডেমি",
+    siteName: "Muslim Sprouts Academy",
   },
   robots: {
     index: true,

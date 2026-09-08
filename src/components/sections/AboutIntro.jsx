@@ -18,7 +18,7 @@ export default function AboutIntro() {
               <span className="text-primary dark:text-primary-light">পৌঁছে দিচ্ছি</span> আপনার ঘরে
             </h1>
             <p className="text-base sm:text-lg text-foreground/70 dark:text-cream/70 leading-relaxed">
-              <strong>Muslim Sprouts একাডেমি</strong> প্রবাসী বাংলাদেশিদের জন্য আল-আজহার বিশ্ববিদ্যালয়ের 
+              <strong>Muslim Sprouts Academy</strong> প্রবাসী বাংলাদেশিদের জন্য আল-আজহার বিশ্ববিদ্যালয়ের 
               মেধাবী শিক্ষার্থীদের দ্বারা কুরআন, তাফসীর ও আরবি ভাষার অনলাইন শিক্ষা প্রদান করে। 
               আমাদের লক্ষ্য—ঐতিহ্যবাহী আল-আজহার পদ্ধতিতে বিশ্বমানের ইসলামি শিক্ষা পৌঁছে দেওয়া 
               যেখানে প্রয়োজন, সেখানেই।

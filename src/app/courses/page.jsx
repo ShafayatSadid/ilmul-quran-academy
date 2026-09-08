@@ -3,7 +3,7 @@ import { FreeClass } from "@/components/shared/FreeClass";
 import Link from "next/link";
 
 export const metadata = {
-  title: "আমাদের কোর্সসমূহ | ইলমুল কুরআন একাডেমি",
+  title: "আমাদের কোর্সসমূহ | Muslim Sprouts Academy",
   description:
     "আল-আজহার পদ্ধতিতে ৬টি কোর্স—কুরআন তিলাওয়াত, তাফসীর, আরবি ভাষা, নূরানী পদ্ধতি, হিফজ ও ইসলামিক স্টাডিজ। কোর্স বেছে নিন আজই।",
   keywords: [
@@ -16,12 +16,12 @@ export const metadata = {
     "অনলাইন কোর্স",
   ],
   openGraph: {
-    title: "আমাদের কোর্সসমূহ | ইলমুল কুরআন একাডেমি",
+    title: "আমাদের কোর্সসমূহ | Muslim Sprouts Academy",
     description:
       "আল-আজহার পদ্ধতিতে ৬টি কোর্স—কুরআন তিলাওয়াত, তাফসীর, আরবি ভাষা, নূরানী পদ্ধতি, হিফজ ও ইসলামিক স্টাডিজ।",
     type: "website",
     locale: "bn_BD",
-    siteName: "ইলমুল কুরআন একাডেমি",
+    siteName: "Muslim Sprouts Academy",
   },
 };
 
