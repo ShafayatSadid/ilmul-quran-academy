@@ -6,7 +6,7 @@ import 'react-phone-input-2/lib/style.css';
 import { useState } from "react";
 import { SiFormbricks } from "react-icons/si";
 import parsePhoneNumberFromString from "libphonenumber-js";
-import toast from 'react-hot-toast'; // ← ইম্পোর্ট
+import toast from 'react-hot-toast';
 
 export function FreeClass() {
   const [phone, setPhone] = useState('');
@@ -47,26 +47,28 @@ export function FreeClass() {
 
     if (Object.keys(errors).length > 0) {
       setFormErrors(errors);
-      // এরর টোস্ট দেখান
       toast.error('দয়া করে ফর্মটি সঠিকভাবে পূরণ করুন');
       return;
     }
 
-    // সব ঠিক থাকলে
     setFormErrors({});
     console.log('customer:', customer);
 
-    // ========== Formsubmit.co-তে ডেটা পাঠানো ==========
+    // ========== Web3Forms-এ ডেটা পাঠানো (পরিবর্তিত অংশ) ==========
     const form = e.currentTarget;
     const formDataToSend = new FormData(form);
+    // Web3Forms-এর জন্য access_key যোগ করুন (আপনার দেওয়া কী)
+    formDataToSend.append('access_key', '56985fa1-36e9-4b6f-9ecd-fcacc093aa1c');
 
     try {
-      const response = await fetch('https://formsubmit.co/de90d7db4b26b893e352ea29558cdf07', {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         body: formDataToSend,
       });
 
-      if (response.ok) {
+      const result = await response.json();
+
+      if (response.ok && result.success) {
         toast.success('আপনার অনুরোধ গ্রহণ করা হয়েছে!');
         // ফর্ম রিসেট করুন
         form.reset();
@@ -76,6 +78,7 @@ export function FreeClass() {
           window.location.reload();
         }, 1500);
       } else {
+        console.error('Web3Forms error:', result);
         toast.error('দুঃখিত, কিছু সমস্যা হয়েছে। আবার চেষ্টা করুন।');
       }
     } catch (error) {
@@ -83,7 +86,6 @@ export function FreeClass() {
       toast.error('নেটওয়ার্ক সমস্যা, আবার চেষ্টা করুন।');
     }
   };
-
 
   return (
     <Modal>
@@ -180,7 +182,6 @@ export function FreeClass() {
                           borderRadius: '0.75rem',
                         }}
                       />
-                      {/* PhoneInput-এর পরে এই লাইনটি যোগ করুন */}
                       <input type="hidden" name="phone" value={`+${phone}`} />
                     </TextField>
                     {formErrors.phone && (
